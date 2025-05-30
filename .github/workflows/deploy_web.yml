@@ -18,7 +18,7 @@ jobs:
       channel: "stable"
 
    - run: flutter pub get
-   - run: flutter build web --release --base-href="/"
+   - run: flutter build web --release --base-href="/Flutter2/"
 
    - name: Deploy to GitHub Pages
      uses: peaceiris/actions-gh-pages@v4 # battle-tested deployer :contentReference[oaicite:0]{index=0}
